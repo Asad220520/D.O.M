@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Users</title>
+    <link rel="stylesheet" href="style.css" />
+
+  </head>
+  <style>
+    .block {
+      padding-top: 120px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 30px;
+    }
+    .boc {
+      width: 250px;
+      height: 350px;
+      border: 1px solid #000;
+    }
+  </style>
+  <body>
+    <header id="header">
+      <div class="container">
+        <div class="header">
+          <h1>LOGO</h1>
+          <div class="header-nav">
+            <a href="./index.html">Home</a>
+            <a href="./index2.html" target="_blank">User</a>
+            <a href="./index3.html">dogs</a>
+          </div>
+          <select>
+            <option value="europe">Europe</option>
+            <option value="asia">Asia</option>
+            <option value="africa">Africa</option>
+            <option value="americas">Americas</option>
+          </select>
+
+          <select class="header__select">
+            <option value="population">Население</option>
+            <option value="area">Площадь</option>
+            <option value="A-Z">A-Z</option>
+            <option value="Z-A">Z-A</option>
+          </select>
+
+          <div class="header-search">
+            <input type="text" />
+            <button>search</button>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <div class="block"></div>
+
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="./app2.js"></script>
+  </body>
+</html>

@@ -1,0 +1,54 @@
+#p {
+  font-size: 12px;
+  color: #f44336;
+}
+#h5 {
+  color: #f44336;
+  font-size: 12px;
+}
+.inbox input {
+  max-width: 500px;
+  position: relative;
+  padding: 0 300px 0 10px;
+  height: 55px;
+  outline: none;
+  font-weight: 500;
+  font-size: 16px;
+  padding-left: 20px;
+  border-radius: 8px;
+  outline: none;
+  font-size: 16px;
+  border-radius: 8px;
+}
+input:valid ~ span {
+  transform: translate(40px);
+  position: absolute;
+  left: 33%;
+  top: 46px;
+  padding: 15px;
+}
+
+input:valid ~ span,
+input:focus ~ span {
+  color: #ffffff;
+  transform: translate(25px) translateY(-13px);
+  font-size: 14px;
+  padding: 0 3px;
+  background: rgb(10, 17, 40);
+}
+input:valid ~ .pass {
+  transform: translate(40px);
+  position: absolute;
+  left: 33%;
+  top: 23%;
+  padding: 15px;
+}
+
+input:valid .pass,
+input:focus ~ .pass {
+  color: #ffffff;
+  transform: translate(25px) translateY(-13px);
+  font-size: 14px;
+  padding: 0 3px;
+  background: rgb(10, 17, 40);
+}
